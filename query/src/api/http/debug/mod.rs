@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+pub mod backtrace;
 pub mod home;
 pub mod pprof;
-
 pub use home::PProfRequest;

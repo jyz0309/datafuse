@@ -141,6 +141,10 @@ impl HttpService {
                 "/debug/pprof/profile",
                 get(super::http::debug::pprof::debug_pprof_handler),
             )
+            .route(
+                "/debug/backtrace",
+                get(super::http::debug::backtrace::backtrace_handler),
+            )
             .boxed()
     }
 

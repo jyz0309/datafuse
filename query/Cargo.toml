@@ -55,6 +55,7 @@ async-trait = "0.1"
 async-compat = "0.2.1"
 bumpalo = "3.7.1"
 bytes = "1"
+backtrace = "0.3"
 crossbeam = "0.8"
 quantiles = "0.7.1"
 ctrlc = { version = "3.1.9", features = ["termination"] }
